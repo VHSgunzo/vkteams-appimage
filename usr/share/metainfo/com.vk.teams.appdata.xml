@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>com.vk.teams</id>
+    <metadata_license>MIT</metadata_license>
+    <project_license>MIT</project_license>
+    <name>VK Teams</name>
+    <summary>Official desktop application for the VK Teams messaging service</summary>
+    <description>
+        <p>
+            VK Teams — a single digital space for your teams.
+            All employees of the company are available in VK Steam,
+            and their data is automatically synchronized with Active
+            Directory or another directory service.
+            Chat in chats, send voice calls, organize phone calls,
+            write letters, schedule meetings and set tasks in one application.
+        </p>
+    </description>
+    <launchable type="desktop-id">com.vk.teams.desktop</launchable>
+    <screenshots>
+        <screenshot type="default">
+            <caption>Gifcurry</caption>
+            <image type="source" width="1180" height="800">https://biz-landings-static.hb.bizmrg.com/omega-test/static/2022-07-15-15-35-29-134/static/media/seconds@2x.b6aa6fc9.png</image>
+        </screenshot>
+    </screenshots>
+    <url type="homepage">https://teams.vk.com</url>
+</component>

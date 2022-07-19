@@ -1,0 +1,6 @@
+#!/bin/sh
+DESKTOP_FILE="$HOME/.local/share/applications/vkteamsdesktop.desktop"
+cd "$(dirname "$0")"
+./vkteams -urlcommand "$@"
+[ -f "$DESKTOP_FILE" ] && rm -rf "$DESKTOP_FILE" && \
+update-desktop-database -q "$HOME/.local/share/applications"
