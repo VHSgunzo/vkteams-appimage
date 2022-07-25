@@ -15,7 +15,7 @@ fi
 
 # get sources binary if necessary
 [ ! -f vkteams.tar.xz ] && echo "Get sources binary..." && \
-curl -L -o vkteams.tar.xz https://vkteams-www.hb.bizmrg.com/linux/x64/vkteams.tar.xz
+curl -L -o vkteams.tar.xz https://dl.internal.myteam.mail.ru/downloads/linux/x64/latest/vkteams.tar.xz
 
 # prepare source AppDir
 if [ -f vkteams.tar.xz ]
