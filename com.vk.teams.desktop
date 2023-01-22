@@ -1,9 +1,1 @@
-[Desktop Entry]
-Type=Application
-Name=VK Teams
-Comment=Official desktop application for the VK Teams messaging service
-Icon=com.vk.teams
-Categories=Network;
-Terminal=false
-MimeType=x-scheme-handler/vkteams;x-scheme-handler/myteam-messenger;
-Exec=vkteams %u
+usr/share/applications/com.vk.teams.desktop
