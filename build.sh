@@ -1,5 +1,8 @@
 #!/bin/bash
 
+[ -x "$(which apt 2>/dev/null)" ] && \
+    apt update && apt install -y fuse
+
 # machine's architecture
 export ARCH=x86_64
 echo "Machine's architecture: $ARCH"
