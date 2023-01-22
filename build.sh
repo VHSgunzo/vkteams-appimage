@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[ -x "$(which apt 2>/dev/null)" ] && \
+[[ -x "$(which apt 2>/dev/null)" && "$EUID" == 0 ]] && \
     apt update && apt install -y fuse
 
 # machine's architecture
