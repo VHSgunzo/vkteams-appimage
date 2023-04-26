@@ -1,0 +1,4 @@
+src
+build
+*.AppImage
+*.tar.xz
