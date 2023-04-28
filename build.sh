@@ -27,6 +27,7 @@ if [ -f vkteams.tar.xz ]
       rm -rvf src && mkdir src
       tar -xvf vkteams.tar.xz -C src
       rm -rf src/unittests
+      rm -rf src/lib/libXcursor.so.1
       cp -vf com.vk.teams.png src/
       cp -vf com.vk.teams.desktop src/
       cp -vf AppRun src/
